@@ -1,30 +1,40 @@
-# Python Task Agent Demo
+# AutoFin-AI
 
-Projeto simples de agente autonomo em Python para portfolio.
+Portfolio project for a Python agent workflow and structured API responses.
 
-## Ideia
-
-O agente recebe uma tarefa, cria uma lista de passos, executa funcoes locais e salva um log em JSON.
-
-## Como executar
+## Run
 
 ```bash
 python main.py
 ```
 
-## Estrutura
+## Goal
+
+This repository demonstrates a simple architecture for automated document review, typed JSON output, workflow logs and human review checkpoints.
+
+## Structure
 
 ```text
 main.py
+backend/
+docs/
 memory/
 ```
 
-## Saida
+## Output
 
 ```text
 memory/log.json
 ```
 
-## Licenca
+## Roadmap
+
+- FastAPI endpoint.
+- Pydantic schemas.
+- Workflow engine.
+- Docker Compose.
+- Flutter client mock.
+
+## License
 
 MIT License.
